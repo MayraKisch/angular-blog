@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { dataFake } from 'src/app/data/dataFake';
 
@@ -8,6 +8,11 @@ import { dataFake } from 'src/app/data/dataFake';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
+
+  
+  @Input()
+  link:string="https://mayrakisch.github.io/#formacao"
+
   photoCover:string = './assets/img/camaleao.jpg'
   contentTitle:string ='Camaleão'
   contentDescription:string ='Desenho realizado com mesa digital e MediBang Paint Pro, inspirado na arte de grafite de rua. '

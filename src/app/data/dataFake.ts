@@ -1,10 +1,19 @@
 export const dataFake = [
+    {
+  'id': "0",
+  'photo': 'Minha formação',
+  'photoCover': '../assets/img/Portifolio.png',
+  'title': "Um pouco sobre mim",
+  'description': `Olá! Meu nome é Mayra e sou graduada em Ciências Biológicas pela UFSCar. Apesar de ter me formado nessa área, atualmente estou me dedicando a estudar Front End e UI/UX Design para me tornar uma desenvolvedora web em breve. Uma das minhas maiores paixões é desenhar e, sempre que posso, crio algumas ilustrações que estão disponíveis em meu site. Recentemente, ganhei uma mesa digital e esses são meus primeiros desenhos realizados completamente em formato digital.
+
+  Atualmente, estou trabalhando como freelancer em Marketing Digital, prestando serviços de copywriting, ilustração, layout, publicação e manutenção de mídia social e sites para três empresas. Essa atividade me ajuda a bancar meus estudos e a aprimorar minhas habilidades na área de tecnologia. Estou animada para explorar novos horizontes e descobrir onde minha paixão pela arte e tecnologia podem me levar.`
+  },
   {
     'id': "1",
     'photo': 'camaleao',
     'photoCover': '../assets/img/camaleao.jpg',
     'title': "Camaleão",
-    'description': 'Desenho realizado com mesa digital e MediBang Paint Pro, inspirado na arte de grafite de rua.'
+    'description': 'Este foi meu primeiro desenho feito utilizando uma mesa digital. Eu estava experimentando o aplicativo MediBang Paint Pro e fiquei muito satisfeita com o resultado. Para compor a obra final, usei 5 camadas diferentes, cada uma com sua finalidade específica. Decidi criar um camaleão divertido e colorido, utilizando diversas tonalidades para dar mais vida ao desenho. Foi um processo muito divertido e desafiador ao mesmo tempo, mas estou feliz com o resultado final e ansiosa para continuar explorando as possibilidades da arte digital.'
   },
   {
     'id': "2",
@@ -39,7 +48,7 @@ export const dataFake = [
     'photo': 'aaaa',
     'photoCover': '../assets/img/logovet.jpg',
     'title': "Arara Carindé",
-    'description': 'Desenho realizado com mesa digital e MediBang Paint Pro, inspirado na arte de grafite de rua.'
+    'description': 'Essa arara foi inicialmente criada para servir como logo de uma ONG veterinária em Campinas que tem como foco o cuidado com animais silvestres.'
   },
   {
     'id': "7",
