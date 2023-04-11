@@ -18,7 +18,7 @@ import { ContentComponent } from './pages/content/content.component';
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
   ],
   imports: [
     BrowserModule,

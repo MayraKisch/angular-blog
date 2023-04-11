@@ -20,6 +20,7 @@
 }
 .content__description {
   margin-top:15px;
+  max-width:800px;
 }
 .content__description > p {
   color: gray;

@@ -15,3 +15,7 @@ a {
 ul , li {
   list-style: none;
 }
+
+hr {
+  border-color: grey;
+}
